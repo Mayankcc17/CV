@@ -1,0 +1,118 @@
+
+.cv {
+    border: 5px solid gray;
+    width: 25cm;
+    height: 30cm;
+    position: sticky;
+    /* background-color: rgb(65, 63, 63); */
+    /* margin-left: 10%; */
+    /* margin-right: 10% */
+}
+
+.heder {
+    background-color: #0C3760;
+    position: absolute;
+    font-size: larger;
+    height: 4cm;
+    width: 100%;
+}
+
+img {
+    width: 3.2cm;
+    height: 3.2cm;
+    border: 3px solid rgb(128, 119, 119);
+    border-radius: 50%;
+    margin: 5px;
+    position: absolute;
+}
+
+.info {
+    color: rgb(197, 178, 73);
+    text-align: center;
+    padding-right: 20%;
+    margin-top: 10px;
+    margin-left: 37%;
+    font-size: larger;
+    position: absolute;
+
+}
+
+table {
+    float: right;
+    list-style-type: none;
+    color: rgb(197, 178, 73);
+    margin-right: 5px;
+}
+
+table img {
+    border: #0C3760;
+    width: 15px;
+    height: 15px;
+    position: relative;
+}
+
+.contact {
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-style:italic; */
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.left {
+    top: 4.5cm;
+    left: 2%;
+
+    border-right: 1.5pt solid rgb(126, 107, 0);
+    height: 80%;
+    width: 33%;
+    position: absolute;
+}
+
+#con {
+    position: static;
+    padding-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: whitesmoke;
+
+    border-bottom: 1.5pt solid rgb(126, 107, 0);
+    height: 1;
+    margin-right: 20px;
+}
+
+h2 {
+    color: rgb(44, 43, 43);
+}
+
+p, h4, li {
+    color: #002060;
+}
+
+.right {
+    top: 4.5cm;
+    left: 40%;
+
+    height: 80%;
+    width: 60%;
+    position: absolute;
+}
+
+#des {
+    position: static;
+    padding-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: whitesmoke;
+
+    border-bottom: 1.5pt solid rgb(126, 107, 0);
+    height: 1;
+    margin-right: 5%;
+}
+
+/* ====================Tab Span================= */
+.tab {
+    display: inline-block;
+    margin-left: 2em;
+}
+
